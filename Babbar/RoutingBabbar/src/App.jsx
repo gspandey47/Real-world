@@ -21,6 +21,7 @@ import Nominee from './Components/View/Nominee'
 import Personal from './Components/View/Personal'
 import Qualification from './Components/View/Qualification'
 import Register from './Components/Page/Register'
+import Login from './Components/Page/login'
 
 const router=createBrowserRouter([
 
@@ -73,6 +74,11 @@ element:<><Navbar/><About/></>
   {
  path:'/Register',
  element:<><Navbar/><Register/></>
+    
+  },
+  {
+ path:'/Login',
+ element:<><Navbar/><Login/></>
     
   },
   {
