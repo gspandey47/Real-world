@@ -22,6 +22,7 @@ import Personal from './Components/View/Personal'
 import Qualification from './Components/View/Qualification'
 import Register from './Components/Page/Register'
 import Login from './Components/Page/login'
+import Job from './Components/Page/Job_register'
 
 const router=createBrowserRouter([
 
@@ -79,6 +80,11 @@ element:<><Navbar/><About/></>
   {
  path:'/Login',
  element:<><Navbar/><Login/></>
+    
+  },
+  {
+ path:'/Job_Registration',
+ element:<><Navbar/><Job/></>
     
   },
   {

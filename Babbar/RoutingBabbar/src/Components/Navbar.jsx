@@ -62,6 +62,7 @@ function Navbar() {
             <li className='text-sm'><NavLink to='/view' className={({isActive})=>isActive?"Active":""}>View</NavLink></li>
             <li className='text-sm'><NavLink to='/Register' className={({isActive})=>isActive?"Active":""}>Register</NavLink></li>
             <li className='text-sm'><NavLink to='/Login' className={({isActive})=>isActive?"Active":""}>Login</NavLink></li>
+            <li className='text-sm'><NavLink to='/Job_Registration' className={({isActive})=>isActive?"Active":""}>Job Registration</NavLink></li>
         </ul>
         </nav>
       </div>
