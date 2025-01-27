@@ -7,7 +7,7 @@ import Home from './Components/Home'
 import Dashboard from './Components/Dashboard'
 import Dynamic from './Components/Dynamic'
 import Header from './Components/Header'
-import Attendance from './Components/Attendance'
+import Attendence from './Components/Attendence'
 import Leave from './Components/Leave'
 import Personal_Dtl from './Components/Personal_Dtl'
 import Att_detail from './Components/Att_detail'
@@ -44,7 +44,7 @@ element:<><Navbar/><About/></>
   },
   {
  path:'/att',
- element:<><Navbar/><Attendance/></>
+ element:<><Navbar/><Attendence/></>
     
   },
   {
