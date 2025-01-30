@@ -1,3 +1,20 @@
-.Active{
-    color: red;
+.Active {
+    color: #4f46e5; /* Tailwind Purple */
+    font-weight: bold;
+  }
+  
+  .navbar-item {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  
+  .navbar-item:hover {
+    background-color: rgba(0, 0, 0, 0.1); 
+    border-radius: 4px;
+   }  
+  
+.Activeuper{
+    /* color:#4B0082; */
+    color:#f62b08;
 }

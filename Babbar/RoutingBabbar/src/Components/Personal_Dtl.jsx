@@ -2,7 +2,7 @@ import { useState } from "react";
 import { jsPDF } from "jspdf";
 import autoTable from "jspdf-autotable";
 
-export default function Personal() {
+export default function Person() {
   const [employees, setEmployees] = useState([
     {
       name: "Krunal",
